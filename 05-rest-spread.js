@@ -12,3 +12,21 @@ let person = {
 }
 let{username, age} = person
 console.log(age,person.name);
+
+//spread operator
+
+let pet = {
+    name: "Michi",
+    race : "Cat"
+}
+let country = "CO"
+
+let data = {...pet, country}
+console.log(data);
+
+function add(num, ...values){
+    console.log(values);
+    return num + values[0];
+}
+
+console.log(add(1,2,3,4,5,6));
