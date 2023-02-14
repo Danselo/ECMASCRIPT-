@@ -30,3 +30,4 @@ function add(num, ...values){
 }
 
 console.log(add(1,2,3,4,5,6));
+
